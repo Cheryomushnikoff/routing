@@ -1,0 +1,25 @@
+
+{
+  "Name": "VPN-Direct-RU",
+  "GlobalProxy": "true",
+  "DirectSites": [
+    "domain:ru",
+    "domain:xn--p1ai",
+    "domain:gosuslugi.ru",
+    "domain:sberbank.ru",
+    "domain:vk.com",
+    "domain:ozon.ru"
+  ],
+  "DirectIp": [
+    "10.0.0.0/8",
+    "172.16.0.0/12",
+    "192.168.0.0/16",
+    "127.0.0.0/8"
+  ],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
